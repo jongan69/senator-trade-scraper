@@ -2,8 +2,8 @@ name: Update Senator Trading Disclosures
 
 on:
   schedule:
-    # Runs at 00:00 UTC every day
-    - cron: '0 0 * * *'
+    # Runs at 00:00 UTC on the 1st of every month
+    - cron: '0 0 1 * *'
   # Allows manual trigger of the workflow
   workflow_dispatch:
 
